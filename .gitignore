@@ -1,0 +1,7 @@
+includes/certs/*.pem
+includes/certs/*.crt
+vendor/
+node_modules
+*.zip
+unused/
+includes/class-project-config.php

@@ -1,0 +1,10 @@
+{
+	"name" : "vdc",
+	"type" : "wordpress-plugin",
+	"license" : "GPL-2.0-or-later",
+	"minimum-stability": "dev",
+    "autoload": {
+		"classmap" : ["plugin.php", "includes"],
+		"exclude-from-classmap": ["includes/class-default-project-config.php"]
+    }
+}
